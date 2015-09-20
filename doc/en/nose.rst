@@ -35,7 +35,7 @@ Unsupported idioms / known issues
   are recognized only on ``unittest.TestCase`` classes but not
   on plain classes.  ``nose`` supports these methods also on plain
   classes but pytest deliberately does not.  As nose and pytest already
-  both support ``setup_class, teardown_class, setup_method, teardown_method``
+  both support ``setup_class, teardown_class, setup, teardown``
   it doesn't seem useful to duplicate the unittest-API like nose does.
   If you however rather think pytest should support the unittest-spelling on
   plain classes please post `to this issue
